@@ -4,6 +4,7 @@ const Dashboard = () =>{
   return(
     <>
       <SidebarWithHeader />
+      <h1>ioxioi</h1>
     </>
   )
 }

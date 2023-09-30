@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const AboutUsArea = () => {
   return(
     <>
@@ -8,12 +6,7 @@ const AboutUsArea = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-left-image mb-md-30px mb-lm-30px" data-aos="fade-up">
-                <Image 
-                  src="/assets/images/about-image/1.jpg"
-                  alt=""
-                  width={570}
-                  height={330}
-                  className="img-responsive w-100" />
+                <img src="assets/images/about-image/1.jpg" alt="" className="img-responsive w-100" />
               </div>
             </div>
             <div className="col-lg-6">

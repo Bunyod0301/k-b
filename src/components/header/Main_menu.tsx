@@ -38,6 +38,9 @@ const Main_menu = () => {
                   <Link href={'/about'}>About us</Link>
                 </li>
                 <li>
+                  <Link href={'/single-product'}>Product Single</Link>
+                </li>
+                <li>
                   <Link href={'/contact'}>Contact us</Link>
                 </li>
               </ul>
