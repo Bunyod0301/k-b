@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import OffCanvasCard from '../off-canvas-card/OffCanvasCard';
 // import 'bootstrap/dist/js/bootstrap.min.js';
-import '../../../public/assets/bootstrap/bootstrap.min'
+import '/public/assets/bootstrap/bootstrap.min.js'
 const Header_Bottom1 = () => {
   const [Btn, setBtn] = useState(false);
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
