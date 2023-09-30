@@ -24,7 +24,7 @@ export default function RangeSliderr() {
         value={value}
         onChange={handleChange}
         getAriaValueText={valuetext}
-        color = {'warning' as string}
+        color = {'warning' as any}
       />
     </Box>
   </>
